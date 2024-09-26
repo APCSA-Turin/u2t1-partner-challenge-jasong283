@@ -98,7 +98,7 @@ public class CalculatorTest{
     @Test
     void testInfo(){
         Calculator calculator = new Calculator("TI84");
-        String expectedOutput = "This calculator is a model "+calculator.calcModel+" where "+calculator.calcModel+" should be filled in with the value stored in the calcModel instance variable.";
+        String expectedOutput = "This calculator is a model " + calculator.calcModel + " where " + calculator.calcModel + " should be filled in with the value stored in the calcModel instance variable.";
         String studentOutput = calculator.info();
         assertEquals(expectedOutput,studentOutput);
     }
